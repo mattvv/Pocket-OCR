@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,18 +15,6 @@
 		2463448F10CC281000011876 /* ZoomableImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2463448E10CC281000011876 /* ZoomableImage.m */; };
 		2482F02B10FC300900EFB5A2 /* OCRDisplayViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2482F02A10FC300900EFB5A2 /* OCRDisplayViewController.mm */; };
 		248395841254394A003C7FC8 /* tessdata-svn in Resources */ = {isa = PBXBuildFile; fileRef = 248395791254394A003C7FC8 /* tessdata-svn */; };
-		248395CA12545376003C7FC8 /* libtesseract_api.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395BE12545376003C7FC8 /* libtesseract_api.a */; };
-		248395CB12545376003C7FC8 /* libtesseract_ccstruct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395BF12545376003C7FC8 /* libtesseract_ccstruct.a */; };
-		248395CC12545376003C7FC8 /* libtesseract_ccutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395C012545376003C7FC8 /* libtesseract_ccutil.a */; };
-		248395CD12545376003C7FC8 /* libtesseract_classify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395C112545376003C7FC8 /* libtesseract_classify.a */; };
-		248395CE12545376003C7FC8 /* libtesseract_cutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395C212545376003C7FC8 /* libtesseract_cutil.a */; };
-		248395CF12545376003C7FC8 /* libtesseract_dict.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395C312545376003C7FC8 /* libtesseract_dict.a */; };
-		248395D012545376003C7FC8 /* libtesseract_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395C412545376003C7FC8 /* libtesseract_image.a */; };
-		248395D112545376003C7FC8 /* libtesseract_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395C512545376003C7FC8 /* libtesseract_main.a */; };
-		248395D212545376003C7FC8 /* libtesseract_textord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395C612545376003C7FC8 /* libtesseract_textord.a */; };
-		248395D312545376003C7FC8 /* libtesseract_training.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395C712545376003C7FC8 /* libtesseract_training.a */; };
-		248395D412545376003C7FC8 /* libtesseract_viewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395C812545376003C7FC8 /* libtesseract_viewer.a */; };
-		248395D512545376003C7FC8 /* libtesseract_wordrec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 248395C912545376003C7FC8 /* libtesseract_wordrec.a */; };
 		24B2BCC910C8912E00A13CE0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B2BCC810C8912E00A13CE0 /* MessageUI.framework */; };
 		24BA10F010C882E600016CED /* TessIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BA10EF10C882E600016CED /* TessIcon.png */; };
 		24BA110F10C884F300016CED /* OCRDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24BA110D10C884F300016CED /* OCRDisplayViewController.xib */; };
@@ -36,6 +24,18 @@
 		24F2866610C9BA88004BB5CA /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F2866310C9BA88004BB5CA /* UIImage+RoundedCorner.m */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F78AB338143EBDA400BDFDE7 /* libtesseract_api.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB32C143EBDA400BDFDE7 /* libtesseract_api.a */; };
+		F78AB339143EBDA400BDFDE7 /* libtesseract_ccstruct.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB32D143EBDA400BDFDE7 /* libtesseract_ccstruct.a */; };
+		F78AB33A143EBDA400BDFDE7 /* libtesseract_ccutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB32E143EBDA400BDFDE7 /* libtesseract_ccutil.a */; };
+		F78AB33B143EBDA400BDFDE7 /* libtesseract_classify.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB32F143EBDA400BDFDE7 /* libtesseract_classify.a */; };
+		F78AB33C143EBDA400BDFDE7 /* libtesseract_cutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB330143EBDA400BDFDE7 /* libtesseract_cutil.a */; };
+		F78AB33D143EBDA400BDFDE7 /* libtesseract_dict.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB331143EBDA400BDFDE7 /* libtesseract_dict.a */; };
+		F78AB33E143EBDA400BDFDE7 /* libtesseract_image.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB332143EBDA400BDFDE7 /* libtesseract_image.a */; };
+		F78AB33F143EBDA400BDFDE7 /* libtesseract_main.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB333143EBDA400BDFDE7 /* libtesseract_main.a */; };
+		F78AB340143EBDA400BDFDE7 /* libtesseract_textord.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB334143EBDA400BDFDE7 /* libtesseract_textord.a */; };
+		F78AB341143EBDA400BDFDE7 /* libtesseract_training.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB335143EBDA400BDFDE7 /* libtesseract_training.a */; };
+		F78AB342143EBDA400BDFDE7 /* libtesseract_viewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB336143EBDA400BDFDE7 /* libtesseract_viewer.a */; };
+		F78AB343143EBDA400BDFDE7 /* libtesseract_wordrec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F78AB337143EBDA400BDFDE7 /* libtesseract_wordrec.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,18 +50,6 @@
 		2482F02910FC300900EFB5A2 /* OCRDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCRDisplayViewController.h; sourceTree = "<group>"; };
 		2482F02A10FC300900EFB5A2 /* OCRDisplayViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCRDisplayViewController.mm; sourceTree = "<group>"; };
 		248395791254394A003C7FC8 /* tessdata-svn */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "tessdata-svn"; sourceTree = "<group>"; };
-		248395BE12545376003C7FC8 /* libtesseract_api.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_api.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_api.a"; sourceTree = SOURCE_ROOT; };
-		248395BF12545376003C7FC8 /* libtesseract_ccstruct.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_ccstruct.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_ccstruct.a"; sourceTree = SOURCE_ROOT; };
-		248395C012545376003C7FC8 /* libtesseract_ccutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_ccutil.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_ccutil.a"; sourceTree = SOURCE_ROOT; };
-		248395C112545376003C7FC8 /* libtesseract_classify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_classify.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_classify.a"; sourceTree = SOURCE_ROOT; };
-		248395C212545376003C7FC8 /* libtesseract_cutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_cutil.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_cutil.a"; sourceTree = SOURCE_ROOT; };
-		248395C312545376003C7FC8 /* libtesseract_dict.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_dict.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_dict.a"; sourceTree = SOURCE_ROOT; };
-		248395C412545376003C7FC8 /* libtesseract_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_image.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_image.a"; sourceTree = SOURCE_ROOT; };
-		248395C512545376003C7FC8 /* libtesseract_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_main.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_main.a"; sourceTree = SOURCE_ROOT; };
-		248395C612545376003C7FC8 /* libtesseract_textord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_textord.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_textord.a"; sourceTree = SOURCE_ROOT; };
-		248395C712545376003C7FC8 /* libtesseract_training.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_training.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_training.a"; sourceTree = SOURCE_ROOT; };
-		248395C812545376003C7FC8 /* libtesseract_viewer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_viewer.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_viewer.a"; sourceTree = SOURCE_ROOT; };
-		248395C912545376003C7FC8 /* libtesseract_wordrec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_wordrec.a; path = "../../tesseract-ocr-svn/outdir/libtesseract_wordrec.a"; sourceTree = SOURCE_ROOT; };
 		24B2BCC810C8912E00A13CE0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		24BA10EF10C882E600016CED /* TessIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TessIcon.png; path = dev/TessIcon.png; sourceTree = "<group>"; };
 		24BA110D10C884F300016CED /* OCRDisplayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCRDisplayViewController.xib; sourceTree = "<group>"; };
@@ -77,6 +65,18 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* OCR_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCR_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* OCR-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "OCR-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F78AB32C143EBDA400BDFDE7 /* libtesseract_api.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_api.a; path = lib/libtesseract_api.a; sourceTree = "<group>"; };
+		F78AB32D143EBDA400BDFDE7 /* libtesseract_ccstruct.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_ccstruct.a; path = lib/libtesseract_ccstruct.a; sourceTree = "<group>"; };
+		F78AB32E143EBDA400BDFDE7 /* libtesseract_ccutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_ccutil.a; path = lib/libtesseract_ccutil.a; sourceTree = "<group>"; };
+		F78AB32F143EBDA400BDFDE7 /* libtesseract_classify.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_classify.a; path = lib/libtesseract_classify.a; sourceTree = "<group>"; };
+		F78AB330143EBDA400BDFDE7 /* libtesseract_cutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_cutil.a; path = lib/libtesseract_cutil.a; sourceTree = "<group>"; };
+		F78AB331143EBDA400BDFDE7 /* libtesseract_dict.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_dict.a; path = lib/libtesseract_dict.a; sourceTree = "<group>"; };
+		F78AB332143EBDA400BDFDE7 /* libtesseract_image.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_image.a; path = lib/libtesseract_image.a; sourceTree = "<group>"; };
+		F78AB333143EBDA400BDFDE7 /* libtesseract_main.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_main.a; path = lib/libtesseract_main.a; sourceTree = "<group>"; };
+		F78AB334143EBDA400BDFDE7 /* libtesseract_textord.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_textord.a; path = lib/libtesseract_textord.a; sourceTree = "<group>"; };
+		F78AB335143EBDA400BDFDE7 /* libtesseract_training.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_training.a; path = lib/libtesseract_training.a; sourceTree = "<group>"; };
+		F78AB336143EBDA400BDFDE7 /* libtesseract_viewer.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_viewer.a; path = lib/libtesseract_viewer.a; sourceTree = "<group>"; };
+		F78AB337143EBDA400BDFDE7 /* libtesseract_wordrec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtesseract_wordrec.a; path = lib/libtesseract_wordrec.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,18 +88,18 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				24B2BCC910C8912E00A13CE0 /* MessageUI.framework in Frameworks */,
-				248395CA12545376003C7FC8 /* libtesseract_api.a in Frameworks */,
-				248395CB12545376003C7FC8 /* libtesseract_ccstruct.a in Frameworks */,
-				248395CC12545376003C7FC8 /* libtesseract_ccutil.a in Frameworks */,
-				248395CD12545376003C7FC8 /* libtesseract_classify.a in Frameworks */,
-				248395CE12545376003C7FC8 /* libtesseract_cutil.a in Frameworks */,
-				248395CF12545376003C7FC8 /* libtesseract_dict.a in Frameworks */,
-				248395D012545376003C7FC8 /* libtesseract_image.a in Frameworks */,
-				248395D112545376003C7FC8 /* libtesseract_main.a in Frameworks */,
-				248395D212545376003C7FC8 /* libtesseract_textord.a in Frameworks */,
-				248395D312545376003C7FC8 /* libtesseract_training.a in Frameworks */,
-				248395D412545376003C7FC8 /* libtesseract_viewer.a in Frameworks */,
-				248395D512545376003C7FC8 /* libtesseract_wordrec.a in Frameworks */,
+				F78AB338143EBDA400BDFDE7 /* libtesseract_api.a in Frameworks */,
+				F78AB339143EBDA400BDFDE7 /* libtesseract_ccstruct.a in Frameworks */,
+				F78AB33A143EBDA400BDFDE7 /* libtesseract_ccutil.a in Frameworks */,
+				F78AB33B143EBDA400BDFDE7 /* libtesseract_classify.a in Frameworks */,
+				F78AB33C143EBDA400BDFDE7 /* libtesseract_cutil.a in Frameworks */,
+				F78AB33D143EBDA400BDFDE7 /* libtesseract_dict.a in Frameworks */,
+				F78AB33E143EBDA400BDFDE7 /* libtesseract_image.a in Frameworks */,
+				F78AB33F143EBDA400BDFDE7 /* libtesseract_main.a in Frameworks */,
+				F78AB340143EBDA400BDFDE7 /* libtesseract_textord.a in Frameworks */,
+				F78AB341143EBDA400BDFDE7 /* libtesseract_training.a in Frameworks */,
+				F78AB342143EBDA400BDFDE7 /* libtesseract_viewer.a in Frameworks */,
+				F78AB343143EBDA400BDFDE7 /* libtesseract_wordrec.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,18 +179,18 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				248395BE12545376003C7FC8 /* libtesseract_api.a */,
-				248395BF12545376003C7FC8 /* libtesseract_ccstruct.a */,
-				248395C012545376003C7FC8 /* libtesseract_ccutil.a */,
-				248395C112545376003C7FC8 /* libtesseract_classify.a */,
-				248395C212545376003C7FC8 /* libtesseract_cutil.a */,
-				248395C312545376003C7FC8 /* libtesseract_dict.a */,
-				248395C412545376003C7FC8 /* libtesseract_image.a */,
-				248395C512545376003C7FC8 /* libtesseract_main.a */,
-				248395C612545376003C7FC8 /* libtesseract_textord.a */,
-				248395C712545376003C7FC8 /* libtesseract_training.a */,
-				248395C812545376003C7FC8 /* libtesseract_viewer.a */,
-				248395C912545376003C7FC8 /* libtesseract_wordrec.a */,
+				F78AB32C143EBDA400BDFDE7 /* libtesseract_api.a */,
+				F78AB32D143EBDA400BDFDE7 /* libtesseract_ccstruct.a */,
+				F78AB32E143EBDA400BDFDE7 /* libtesseract_ccutil.a */,
+				F78AB32F143EBDA400BDFDE7 /* libtesseract_classify.a */,
+				F78AB330143EBDA400BDFDE7 /* libtesseract_cutil.a */,
+				F78AB331143EBDA400BDFDE7 /* libtesseract_dict.a */,
+				F78AB332143EBDA400BDFDE7 /* libtesseract_image.a */,
+				F78AB333143EBDA400BDFDE7 /* libtesseract_main.a */,
+				F78AB334143EBDA400BDFDE7 /* libtesseract_textord.a */,
+				F78AB335143EBDA400BDFDE7 /* libtesseract_training.a */,
+				F78AB336143EBDA400BDFDE7 /* libtesseract_viewer.a */,
+				F78AB337143EBDA400BDFDE7 /* libtesseract_wordrec.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -224,8 +224,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "OCR" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -286,20 +289,18 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = OCR_Prefix.pch;
-				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
 				INFOPLIST_FILE = "OCR-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../tesseract-ocr-svn\"",
-					"\"$(SRCROOT)/../../tesseract-ocr-svn/outdir\"",
+					"\"$(SRCROOT)/lib\"/**",
 				);
 				MACOSX_DEPLOYMENT_TARGET = "";
 				PRODUCT_NAME = OCR;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../tesseract-ocr-svn\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
 			};
 			name = Debug;
 		};
@@ -310,17 +311,17 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = OCR_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
 				INFOPLIST_FILE = "OCR-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
-					"\"$(SRCROOT)/../../tesseract-ocr-svn\"",
-					"\"$(SRCROOT)/../../tesseract-ocr-svn/outdir\"",
+					"\"$(SRCROOT)/lib\"/**",
 				);
 				PRODUCT_NAME = OCR;
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../tesseract-ocr-svn\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
 			};
 			name = Release;
 		};
@@ -332,9 +333,10 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				PREBINDING = NO;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../tesseract-ocr-svn\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
 			};
 			name = Debug;
 		};
@@ -346,10 +348,11 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
-				PREBINDING = NO;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
 				SDKROOT = iphoneos;
-				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../tesseract-ocr-svn\"/**";
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/lib\"/**";
 			};
 			name = Release;
 		};

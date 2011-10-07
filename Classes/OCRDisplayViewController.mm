@@ -21,6 +21,7 @@
 
 #import "OCRDisplayViewController.h"
 #import "baseapi.h"
+#import "libocr.h"
 
 #import "UIImage+Resize.h"
 #import <math.h>
@@ -128,15 +129,19 @@
     const UInt8 *imageData = CFDataGetBytePtr(data);
     
     // this could take a while.
-    char* text = tess->TesseractRect(imageData,
-                                     bytes_per_pixel,
-                                     bytes_per_line,
-                                     0, 0,
-                                     imageSize.width, imageSize.height);
+//    call the OCR library
+    libocr *ocrHandle = [[libocr alloc] init];
+    NSString* text = [ocrHandle readAndProcessImage:uiImage];
     
-    [self setOutputString:[NSString stringWithCString:text encoding:NSUTF8StringEncoding]];
+//    char* text = tess->TesseractRect(imageData,
+//                                     bytes_per_pixel,
+//                                     bytes_per_line,
+//                                     0, 0,
+//                                     imageSize.width, imageSize.height);
     
-    delete[] text;
+//    [self setOutputString:[NSString stringWithCString:text encoding:NSUTF8StringEncoding]];
+      [self setOutputString: text];  
+//    delete[] text;
     CFRelease(data);
 
     // Update the display text. Since we're in a threaded method, run the UI stuff on the main thread.

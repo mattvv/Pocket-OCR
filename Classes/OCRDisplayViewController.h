@@ -22,6 +22,7 @@
 
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
+#import "libocr.h"
 
 #import "ZoomableImage.h"
 

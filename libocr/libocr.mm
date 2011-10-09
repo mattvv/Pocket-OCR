@@ -63,6 +63,25 @@
                                      bytes_per_line,
                                      0, 0,
                                      imageSize.width, imageSize.height);
+    char* boxText = tess->GetBoxText(0);
+    
+    //match the text with the position and return the position of the first letter in a line
+    NSString *ocrText = [NSString stringWithCString:text encoding:NSUTF8StringEncoding];
+    NSString *ocrTextPosition = [NSString stringWithCString:boxText encoding:NSUTF8StringEncoding];
+    NSMutableArray *returnArray = [NSMutableArray arrayWithCapacity:[ocrText length]];
+    NSMutableArray *linesWithPositionData = [NSMutableArray arrayWithArray:[ocrTextPosition componentsSeparatedByString:@"\n"]];
+    NSLog(@"linesWithPositionData => %@", linesWithPositionData);
+    [ocrText enumerateLinesUsingBlock:^(NSString *line, BOOL *stop) {
+        NSLog(@"line =>%@",line);
+        NSArray *tokens = [[linesWithPositionData objectAtIndex:0] componentsSeparatedByString:@" "];
+        NSArray *coordsArray = [NSArray arrayWithObjects:[tokens objectAtIndex:1], [tokens objectAtIndex:2],nil];
+        NSMutableArray *data = [NSMutableArray arrayWithObjects:line,coordsArray,nil];
+        [returnArray addObject:data];
+        [linesWithPositionData subarrayWithRange:NSMakeRange(0,[line length])];
+        
+    }];
+    NSLog(@"returnArray => %@", returnArray);
+     
     CFRelease(data);
     [pool release];
     return [NSString stringWithCString:text encoding:NSUTF8StringEncoding];

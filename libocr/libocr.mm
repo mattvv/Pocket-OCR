@@ -77,8 +77,8 @@
         NSArray *coordsArray = [NSArray arrayWithObjects:[tokens objectAtIndex:1], [tokens objectAtIndex:2],nil];
         NSMutableArray *data = [NSMutableArray arrayWithObjects:line,coordsArray,nil];
         [returnArray addObject:data];
-        [linesWithPositionData subarrayWithRange:NSMakeRange(0,[line length])];
-        
+        NSString *strippedString = [line stringByReplacingOccurrencesOfString:@ " " withString:@""];
+      [linesWithPositionData removeObjectsInRange:NSMakeRange(0,[strippedString length])];
     }];
     NSLog(@"returnArray => %@", returnArray);
      
